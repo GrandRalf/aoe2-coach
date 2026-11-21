@@ -8,6 +8,9 @@ Csak a képernyőt olvassa (a felső sáv számait), a játékba nem kattint bel
 
 A legfrissebb **AoE2Coach.exe** a [Releases](../../releases/latest) oldalon. Telepíteni nem kell, csak elindítani.
 
+**Automatikus frissítés (v1.2-től):** induláskor a menü megnézi, van-e újabb kiadás; ha igen, a **Frissítés** gombbal
+letölti, kicseréli magát és újraindul. A tálcán is van **Frissítés keresése**. (A v1.1-ről egyszer még kézzel kell letölteni.)
+
 ## Használat
 
 1. Indítsd el az `AoE2Coach.exe`-t, válaszd ki a build ordert a listából, **Indítás**.
@@ -20,7 +23,8 @@ Figyelmeztetések (egész meccs alatt, a felső sávban, a játékidő és a men
 
 ## Tálcaikon (jobb klikk)
 
-Build order választás · Hangeffektek be/ki · Gótok (210 max népesség) · Build order elölről · Build újratöltése · Importálás… · Bezárás
+Build order választás · Hangeffektek be/ki · Gótok (210 max népesség) · Build order elölről · Build újratöltése ·
+Importálás… · Importálás linkről (aoecompanion)… · Frissítés keresése · Bezárás
 
 Gyorsbillentyűk: **Ctrl+Alt+→ / ←** következő / előző lépés, **Ctrl+Alt+End** bezárás.
 
@@ -30,7 +34,13 @@ A buildek helye: `Dokumentumok\AoE2 Coach\builds`. Egy [buildorderguide.com](htt
 (.txt vagy .json) a menü / tálca **Importálás…** gombjával vehetsz fel, vagy egyszerűen bemásolod ebbe a mappába:
 induláskor átalakítja és finomhangolja (kezdés 2 házzal, fatábor, 2 ház + malom, ház + bányatábor).
 
-Alapból benne: **Hera 23+2 Fast Castle Boom** (bármely nép), **13 Minute Castle Drop** (Franks).
+**aoecompanion.com link:** a menü **Link (aoecompanion)…** gombjával (vagy a tálcáról) egy
+`https://aoecompanion.com/build-guides/...` linket is megadhatsz; letölti, magyarra fordítja és felveszi a listába.
+
+Az angol build orderek lépéseit magyarul mutatja (a fejlesztések neve mellett zárójelben az angol).
+
+Alapból benne: **Hera 23+2 Fast Castle Boom** (bármely nép), **Fast Castle Boom (aoecompanion)** (bármely nép),
+**13 Minute Castle Drop** (Franks).
 
 ## Követelmények
 
