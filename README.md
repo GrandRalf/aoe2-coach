@@ -14,12 +14,13 @@ A legfrissebb **AoE2Coach.exe** a [Releases](../../releases/latest) oldalon. Tel
 2. Indítsd a meccset. A panel akkor látszik, ha a játék van előtérben (szegély nélküli ablakos módban).
 3. A panelen: az épp elhagyott lépés, **aranyban az aktuális**, alatta a következők; a végén elfogynak.
 
-Figyelmeztetések (egész meccs alatt): **A városközpont nem gyárt!** (100 parasztig, ha van 50 élelem),
-**Ház kell!** (hangjelzéssel), több városközpontnál: **Nem gyárt minden városközpont**.
+Figyelmeztetések (egész meccs alatt, a felső sávban, a játékidő és a menügombok között):
+**A városközpont nem gyárt!** (100 parasztig, ha van 50 élelem és szabad népesség),
+**Ház kell!** (hangjelzéssel; 30 parasztig 2, fölötte 5 szabad helynél; 200-nál, gótoknál 210-nél már nem).
 
 ## Tálcaikon (jobb klikk)
 
-Build order választás · Hangeffektek be/ki · Build order elölről · Build újratöltése · Importálás… · Bezárás
+Build order választás · Hangeffektek be/ki · Gótok (210 max népesség) · Build order elölről · Build újratöltése · Importálás… · Bezárás
 
 Gyorsbillentyűk: **Ctrl+Alt+→ / ←** következő / előző lépés, **Ctrl+Alt+End** bezárás.
 
