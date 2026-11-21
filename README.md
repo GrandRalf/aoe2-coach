@@ -37,8 +37,10 @@ A buildek helye: `Dokumentumok\AoE2 Coach\builds`. Egy [buildorderguide.com](htt
 (.txt vagy .json) a menü / tálca **Importálás…** gombjával vehetsz fel, vagy egyszerűen bemásolod ebbe a mappába:
 induláskor átalakítja és finomhangolja (kezdés 2 házzal, fatábor, 2 ház + malom, ház + bányatábor).
 
-**aoecompanion.com link:** a menü **Link (aoecompanion)…** gombjával (vagy a tálcáról) egy
-`https://aoecompanion.com/build-guides/...` linket is megadhatsz; letölti, magyarra fordítja és felveszi a listába.
+**Beillesztés / link:** a [buildorderguide.com](https://buildorderguide.com) oldalon másold ki a build szövegét
+(Copy), majd a menü **Beillesztés / link…** gombja (vagy a tálca) a vágólapról azonnal importálja – txt fájl nem kell.
+Ugyanez a gomb egy `https://aoecompanion.com/build-guides/...` vagy `https://aoecompanion.com/b/...` linket is elfogad;
+letölti, magyarra fordítja és felveszi a listába.
 
 Az angol build orderek lépéseit magyarul mutatja (a fejlesztések neve mellett zárójelben az angol).
 
