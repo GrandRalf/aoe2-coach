@@ -21,6 +21,9 @@ Figyelmeztetések (egész meccs alatt, a felső sávban, a játékidő és a men
 **A városközpont nem gyárt!** (100 parasztig, ha van 50 élelem és szabad népesség),
 **Ház kell!** (hangjelzéssel; 30 parasztig 2, fölötte 5 szabad helynél; 200-nál, gótoknál 210-nél már nem).
 
+**Nyelv / Language:** a menü jobb felső sarkában Magyar / English választható – a panel, a figyelmeztetések, a menü,
+a tálca és a build-lépések is ezen a nyelven jelennek meg (a választást megjegyzi).
+
 ## Tálcaikon (jobb klikk)
 
 Build order választás · Hangeffektek be/ki · Gótok (210 max népesség) · Build order elölről · Build újratöltése ·
