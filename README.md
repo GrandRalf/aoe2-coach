@@ -1,15 +1,19 @@
-# AoE2 Coach
+# Coach
 
-Build order segéd az **Age of Empires II: Definitive Edition**-höz. A képernyő jobb oldalán átlátszó panelen mutatja,
+Build order segéd egy valós idejű stratégiai játékhoz. A képernyő jobb oldalán átlátszó panelen mutatja,
 melyik paraszt mit csináljon („7. favágótábort épít, majd fa”), és figyelmeztet, ha a városközpont nem gyárt, vagy ház kell.
 Csak a képernyőt olvassa (a felső sáv számait), a játékba nem kattint bele.
+
+Ugyanitt két kisebb segéd is letölthető: **CivHelper** (a néped erősségei és counter-táblája meccs közben) és
+**TeamComp** (csapat-összeállítás javaslat a lobbyban).
 
 ## Letöltés
 
 A legfrissebb **AoE2Coach.exe** a [Releases](../../releases/latest) oldalon. Telepíteni nem kell, csak elindítani.
+A **civhelper.exe** és az **aoeteamcomp.exe** a [Releases](../../releases) listában, a „CivHelper” és „TeamComp” kiadásoknál.
 
-**Automatikus frissítés (v1.2-től):** induláskor a menü megnézi, van-e újabb kiadás; ha igen, a **Frissítés** gombbal
-letölti, kicseréli magát és újraindul. A tálcán is van **Frissítés keresése**. (A v1.1-ről egyszer még kézzel kell letölteni.)
+**Automatikus frissítés:** mindhárom program induláskor megnézi, van-e újabb kiadás; ha igen, letölti, kicseréli magát
+és újraindul. A tálcán is van **Frissítés keresése**.
 
 ## Használat
 
@@ -27,7 +31,7 @@ a tálca és a build-lépések is ezen a nyelven jelennek meg (a választást me
 ## Tálcaikon (jobb klikk)
 
 Build order választás · Hangeffektek be/ki · Gótok (210 max népesség) · Build order elölről · Build újratöltése ·
-Importálás… · Importálás linkről (aoecompanion)… · Frissítés keresése · Bezárás
+Importálás… · Importálás linkről… · Frissítés keresése · Bezárás
 
 Gyorsbillentyűk: **Ctrl+Alt+→ / ←** következő / előző lépés, **Ctrl+Alt+End** bezárás.
 
@@ -38,16 +42,30 @@ A buildek helye: `Dokumentumok\AoE2 Coach\builds`. Egy [buildorderguide.com](htt
 induláskor átalakítja és finomhangolja (kezdés 2 házzal, fatábor, 2 ház + malom, ház + bányatábor).
 
 **Beillesztés / link:** a [buildorderguide.com](https://buildorderguide.com) oldalon a build oldalán nyomd meg az
-**Export → RTS** gombot (vágólapra másolja), majd a menü **Beillesztés / link…** gombja (vagy a tálca) a vágólapról azonnal importálja – txt fájl nem kell.
-Ugyanez a gomb egy `https://aoecompanion.com/build-guides/...` vagy `https://aoecompanion.com/b/...` linket is elfogad;
-letölti, magyarra fordítja és felveszi a listába.
+**Export → RTS** gombot (vágólapra másolja), majd a menü **Beillesztés / link…** gombja (vagy a tálca) a vágólapról azonnal
+importálja – txt fájl nem kell. Ugyanez a gomb más build-oldalak linkjét is elfogadja; letölti, magyarra fordítja és
+felveszi a listába.
 
 Az angol build orderek lépéseit magyarul mutatja (a fejlesztések neve mellett zárójelben az angol).
 
-Alapból benne: **Hera 23+2 Fast Castle Boom** (bármely nép), **Fast Castle Boom (aoecompanion)** (bármely nép),
+Alapból benne: **Hera 23+2 Fast Castle Boom** (bármely nép), **Fast Castle Boom** (bármely nép),
 **13 Minute Castle Drop** (Franks).
+
+## CivHelper
+
+Meccs közben bal alul, a súgó fölött kiírja a néped erősségeit, fő bónuszát és egy counter-táblát (lovag / íjász /
+gyalogság / lovasíjász / ostrom ellen mit gyárts). A népedet a meccs felvételéből ismeri fel (a felvétel legyen
+bekapcsolva), a játék nyelvét követi. Tálca: jegyzet be/ki, frissítés keresése, bezárás.
+
+## TeamComp
+
+A lobbyból olvassa a népeket és a csapatokat, és a saját népedből kiindulva csapat-kombót ajánl térkép és mód
+(2v2 / 3v3 / 4v4) szerint. Csak lobbyban látszik, a meccs indulásakor eltűnik. Tálca: mindig látszik, frissítés
+keresése, bezárás.
+
+Mindhárom program csak kiír: nem kattint, nem nyom billentyűt a játékban.
 
 ## Követelmények
 
-- Windows 10/11, 1920x1080 felbontás, AoE2 DE (angol vagy a HUN v1.6 magyarítással)
+- Windows 10/11, 1920x1080 felbontás, szegély nélküli ablakos játék (angol vagy magyarított)
 - Windows OCR (a Windows beépített szövegfelismerője)
